@@ -28,3 +28,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.btn1 span {
+  margin-left: 10px;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  width: 30px;
+}
